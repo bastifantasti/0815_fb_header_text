@@ -1,0 +1,100 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+
+
+@charset "utf-8";
+/* CSS Document */
+
+body{
+  margin: 0;
+  min-width: 980px;
+  padding: 0;
+  margin: auto;
+  background-color: #fff;
+  color:#5a5a5a;
+  font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+  padding-left: 25px;
+}
+
+h1{
+  color: #5a5a5a;
+  text-align: center;
+  width: 850px;
+}
+p{padding-top: 7px;
+}
+
+p, ul{
+  font-size-adjust:0.488;
+  font-weight:200;
+  font-style:normal;
+}
+
+img{
+  border: 0;
+}
+#img{
+  position: relative;
+  height: 315px;
+  overflow: hidden;
+
+}
+#headerimg{
+  position: relative;
+  top: 0;
+  z-index: 1;
+}
+#raster{
+  position: relative;
+  top: -316px;
+  z-index: 2;
+  display: block;
+  width: 850px;
+  height: 315px;
+
+}
+.btn{
+  float: left;
+  width:170px;
+  height: 63px;
+  /*
+  background-color: #fff;
+  opacity: 0.1;*/
+  display:block;
+  z-index: 9;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #7fff00;
+  opacity: 1;
+
+}
+.active{
+  background-color: #ff0000;
+  opacity: 0.9;
+}
+#output{
+  position: relative;
+  display: block;
+  width: 850px;
+  height: 40px;
+  text-align: center;
+  font-size: 24px;
+
+}
+
+#dropbox {
+  width: 256px;
+  height: 256px;
+
+  text-align: center;
+  font-size: 1rem;
+   background-image: url("../images/97b7e8ca.addfile.png") ;
+  background-repeat: none;
+}
+
+#droplabel {
+  position: relative;
+  top: -10px;
+}

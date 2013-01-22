@@ -1,0 +1,39 @@
+Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+
+  http://localhost:3501/scripts/vendor/9903151d.require.js:1818
+  http://localhost:3501/scripts/vendor/9903151d.require.js:539 in onError
+  http://localhost:3501/scripts/vendor/9903151d.require.js:1713
+CACHE MANIFEST
+
+# Time: Tue Jan 22 2013 10:44:28 GMT+0100 (Mitteleuropäische Zeit)
+# This manifest was created by confess.js, http://github.com/jamesgpearce/confess
+#
+# Retrieved URL: http://localhost:3501/
+# User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#
+# Config:
+#  task: appcache
+#  userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#  wait: 0
+#  consolePrefix: #
+#  verbose: true
+#  appcache:
+#   urlsFromDocument: true
+#   urlsFromRequests: false
+#   cacheFilter: .*
+#   networkFilter: null
+#  url: http://localhost:3501
+#  configFile: C:\Users\sebastian.schwarz\AppData\Roaming\npm\node_modules\yeoman\lib\support\confess.json
+
+CACHE:
+./images/a7aab15d.bg.jpg
+http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js
+http://www.google-analytics.com/ga.js
+scripts/main.js
+scripts/vendor/9903151d.require.js
+scripts/vendor/cf69c6f2.modernizr.min.js
+styles/051c0509.main.css
+
+NETWORK:
+*
